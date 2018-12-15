@@ -1,0 +1,7 @@
+<?xml  version="1.0" encoding="utf-8" ?>
+<setting_config name="设置" expand="yes" delete="no">
+	<script_root name="脚本文件入口" kinds="in_file">../cfg/script_root.xml</script_root>
+	<new_template name="新建模板" kinds="in_file">../cfg/setting/newfileTemp.xml</new_template>
+	<compile_to_exe_cmd name="脚本编译成exe命令">script_2exe.bat</compile_to_exe_cmd>
+	<tool_installed_path name="shell解释器安装路径">/usr/local/bin/nodeflow</tool_installed_path>
+</setting_config>

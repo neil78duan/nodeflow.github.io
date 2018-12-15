@@ -1,0 +1,6 @@
+<?xml  version="1.0" encoding="utf-8" ?>
+<script_file_manager name="脚本" kinds="hide" delete="no" create_template="create_new_file" last_edited="apoSample">
+	<file name="apoSample" main_file="sample_script.xml" delete="no">../cfg</file>
+	<file name="commonTemp" main_file="commonTemp.xml" delete="no">../cfg</file>
+	<file name="hello1" main_file="hello1.xml">../sample/hello1</file>
+</script_file_manager>

@@ -1,0 +1,12 @@
+# ignore obj 
+*.[odOD]
+obj
+*.log
+.DS_Store
+libs
+xcuserdata
+build
+moc_*
+ui_*
+.obj
+.objs
