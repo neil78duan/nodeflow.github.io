@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:machoTool/machoTool.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../src/nfEditor/nfEditor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../ndsdk/xcode/ndMacStatic/ndMacStatic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../ndsdk/xcode/ndcommon_mac/ndcommon_mac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../src/apolloEditorUI/apoBluePrint.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:httpExt/httpExt.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:nfParser/nfParser.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "apolloBP">
+      <Group
+         location = "group:../src"
+         name = "src">
+         <FileRef
+            location = "group:Makefile">
+         </FileRef>
+         <Group
+            location = "group:httpServer"
+            name = "httpServer">
+            <FileRef
+               location = "group:Makefile">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nfmain"
+            name = "nfmain">
+            <FileRef
+               location = "group:Makefile">
+            </FileRef>
+            <FileRef
+               location = "group:nfmain.cpp">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:parser"
+            name = "parser">
+            <FileRef
+               location = "group:logic_compile.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logic_debugger.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logic_editor_helper.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logic_function.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logicApi4c.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logicDataType.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logicEngineRoot.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logicParser.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:logicStruct.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:main_exe_entry.cpp">
+            </FileRef>
+            <FileRef
+               location = "group:Makefile">
+            </FileRef>
+            <FileRef
+               location = "group:objectBaseMgr.cpp">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:../cfg"
+         name = "cfg">
+         <FileRef
+            location = "group:io_config.xml">
+         </FileRef>
+         <FileRef
+            location = "group:nfhttp_cfg.xml">
+         </FileRef>
+         <FileRef
+            location = "group:sample_script.xml">
+         </FileRef>
+         <FileRef
+            location = "group:script_root.xml">
+         </FileRef>
+         <Group
+            location = "group:setting"
+            name = "setting">
+            <FileRef
+               location = "group:error_list.xml">
+            </FileRef>
+            <FileRef
+               location = "group:events_id.xml">
+            </FileRef>
+            <FileRef
+               location = "group:func_list.xml">
+            </FileRef>
+            <FileRef
+               location = "group:newfileTemp.xml">
+            </FileRef>
+            <FileRef
+               location = "group:newfileTemp_common.xml">
+            </FileRef>
+            <FileRef
+               location = "group:newfileTemp_forGame.xml">
+            </FileRef>
+            <FileRef
+               location = "group:newfileTemp_forHTTP.xml">
+            </FileRef>
+            <FileRef
+               location = "group:userDefList.xml">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:setting.cyp">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:../config.sh">
+      </FileRef>
+      <FileRef
+         location = "group:../Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:../Rules.make">
+      </FileRef>
+   </Group>
+</Workspace>
